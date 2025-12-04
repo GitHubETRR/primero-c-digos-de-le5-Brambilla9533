@@ -6,6 +6,8 @@ void pasaMinuscula(char texto[]);
 int main() {
     char cadena[100];
 
+    printf("bienvenido a la unica funcion que pasa de mayusculas a minusculas\n");
+        
     printf("Ingrese un texto: ");
     fgets(cadena, 100, stdin);
 
