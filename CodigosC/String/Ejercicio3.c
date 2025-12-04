@@ -6,6 +6,9 @@ int vocales(char texto[]);
 
 int main() {
     char cadena[100];
+    
+    printf("Bienvenido a mi codigo de trucos\n");
+    printf("Convertire todas las mayusculas en minusculas y te dire cuantas vocales hay en lo que escribiste\n");
 
     printf("Ingrese un texto: ");
     fgets(cadena, 100, stdin);
