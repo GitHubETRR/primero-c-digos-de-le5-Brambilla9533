@@ -4,8 +4,10 @@ void Invertir(char origen[], char destino[]);
 
 int main() {
     char cadena[100], invertida[100];
-
-    printf("Ingrese un texto: ");
+    
+    printf("Hemos de presentar el magnifico INVERTIDOR\n");
+    printf("Este es mi mayor truco\n");
+    printf("Ingrese un texto para continuar con el truco: ");
     fgets(cadena, 100, stdin);
 
     int i = 0;
