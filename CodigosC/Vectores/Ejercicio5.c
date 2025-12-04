@@ -9,6 +9,8 @@ int main() {
 	int Vec1[TAMVEC];
 	int Vec2[TAMVEC];
 	int resultado;
+	
+	printf("Estos ya no es un truco, es pura matemáticas señores\n\n");
 
 	printf("Cargar valores para Vec1:\n");
 	cargarVector(Vec1);
