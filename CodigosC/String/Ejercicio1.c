@@ -4,7 +4,9 @@ int Longitud(char texto[]);
 
 int main() {
     char cadena[100];
-
+    
+    printf("En esta pagina se le dira el largo de la oracion que escriba en la siguiente entrada\n");
+    
     printf("Ingrese un texto: ");
     fgets(cadena, 100, stdin);
 
