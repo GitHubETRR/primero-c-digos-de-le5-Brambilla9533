@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Dimension(char texto[]);  
+int Longitud(char texto[]);  
 
 int main() {
     char cadena[100];
@@ -8,14 +8,14 @@ int main() {
     printf("Ingrese un texto: ");
     fgets(cadena, 100, stdin);
 
-    int largo = Dimension(cadena);
+    int dimension = Longitud(cadena);
 
-    printf("El largo de la cadena es: %d\n", largo);
+    printf("El largo de la cadena es: %d\n", dimension);
 
     return 0;
 }
 
-int Dimension(char texto[]) {
+int Longitud(char texto[]) {
     int i = 0;
     while (texto[i] != '\0') {
         i++;
