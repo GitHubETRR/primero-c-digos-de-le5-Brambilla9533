@@ -11,12 +11,14 @@ void mostrarPosMax(int vec[], int max);
 int main() {
 	int vec[TAMVEC];
 	int max, min;
+	
+	printf("Usted esta por prenciar mi mejor truco de magia\n\n");
 
 	cargarVector(vec);
 	buscarMaxMin(vec, &max, &min);
 
-	printf("Valor maximo: %d\n", max);
-	printf("Valor minimo: %d\n", min);
+	printf("Valor maximo presentado: %d\n", max);
+	printf("Valor minimo expuesto: %d\n", min);
 
 	mostrarPosMax(vec, max);
 
@@ -51,3 +53,4 @@ void mostrarPosMax(int vec[], int max) {
 			printf("%d\n", i);
 	}
 }
+
