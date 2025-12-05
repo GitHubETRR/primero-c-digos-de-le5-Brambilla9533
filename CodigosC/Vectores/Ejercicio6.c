@@ -14,6 +14,8 @@ int main() {
 
     CargaVector(Vec1);
     InvertirVector(Vec1, VecInvertido);
+    
+    printf("\nImpresora de numeros aleatorios e invertidora de los mismos\n\n");
 
     printf("Vector original:\n");
     MostrarVector(Vec1);
